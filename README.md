@@ -1,109 +1,97 @@
 
- Health Tracker App (Flutter)
-A simple Flutter application for tracking basic health measurements such as Blood Pressure and Blood Sugar, with clear results and predefined normal ranges.
+ Project Description
 
- This project is for educational purposes only and does not provide medical diagnosis.
+This is a simple Flutter Health Tracker Application that allows users to enter basic health measurements and view their status based on predefined ranges.
 
-Application Overview
-The Health Tracker App allows users to:
+The application is designed for educational purposes and demonstrates Flutter UI design, state management, and user input handling.
 
-Enter health values
-
-Validate inputs
-
-Display health status results
-
-View normal ranges for each measurement
-
-The app focuses on clean UI, simple logic, and Flutter fundamentals.
-
+ 
+ 
  Features
-Blood Pressure input:
+
+Enter Blood Pressure values:
 
 Systolic (SYS)
 
 Diastolic (DIA)
 
-Blood Sugar input
+Enter Blood Sugar level
 
-One-click Check button to evaluate results
+Calculate health status using a Check button
 
-Results displayed below inputs
+Display results below the input fields
 
-Clear normal ranges for each measurement
+Show normal ranges for each health measurement
 
 Reset all inputs easily
 
-User-friendly and responsive UI
+Clean and simple user interface
 
- Health Rules Used (Demo Only)
-Blood Pressure – Systolic (SYS)
-Status	Range
-Low	< 90
-Normal	90 – 119
-Elevated	120 – 139
-High	≥ 140
+ Health Ranges Used (Demo)
 
-Blood Pressure – Diastolic (DIA)
-Status	Range
-Low	< 60
-Normal	60 – 79
-Elevated	80 – 89
-High	≥ 90
+
+
+ These values are for demonstration only and not medical diagnosis.
+
+Blood Pressure
+
+Systolic (SYS)
+
+Normal: 90 – 119
+
+Elevated: 120 – 139
+
+High: ≥ 140
+
+Low: < 90
+
+Diastolic (DIA)
+
+Normal: 60 – 79
+
+Elevated: 80 – 89
+
+High: ≥ 90
+
+Low: < 60
 
 Blood Sugar
-Status	Range
-Low	< 70 mg/dL
-Normal	70 – 140 mg/dL
-High	> 140 mg/dL
 
-🛠 Built With
+Normal: 70 – 140 mg/dL
+
+Low: < 70 mg/dL
+
+High: > 140 mg/dL
+
+
+
+ Technologies Used
+
 Flutter
 
 Dart
 
 Material Design (Material 3)
 
- Getting Started
-Prerequisites
-Flutter SDK installed
 
-VS Code or Android Studio
 
-Emulator or physical device
+ How to Run the Project
 
-Installation & Run
-bash
-نسخ الكود
+Make sure Flutter SDK is installed
+
+Open the project in VS Code
+
+Run the following command:
+
 flutter pub get
 flutter run
+
+
+Use an emulator or a physical device
+
  Project Structure
-vbnet
-نسخ الكود
 lib/
  ├── main.dart
  └── health_tracker_page.dart
 test/
  └── widget_test.dart (optional)
- What This Project Demonstrates
-StatefulWidget usage
-
-TextEditingController
-
-Input validation
-
-Conditional logic
-
-UI layout using:
-
-Card
-
-ListView
-
-ListTile
-
-Flutter best practices for beginner projects
-
- 
-Clean code structure
-
